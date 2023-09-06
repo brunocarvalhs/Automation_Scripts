@@ -2,9 +2,9 @@ import os
 import glob
 import shutil
 
-source_directory = ""
-destination_directory = ""
-allowed_extensions = ['.jpg', '.JPG', '.jpeg', '.png', '.gif', '.json', '.mp4', '.avi', '.tar', '.MOV', '.heic', '.mov', '.ico', '.webp', '.wmv']
+source_directory = ""  # Insira o caminho do diretório de origem aqui
+destination_directory = ""  # Insira o caminho do diretório de destino aqui
+allowed_extensions = ['.jpg', '.bmp', '.html', '.m4v', '.JPG', '.jpeg', '.png', '.gif', '.json', '.mp4', '.avi', '.tar', '.MOV', '.heic', '.mov', '.ico', '.webp', '.wmv', '.mp4']
 
 # Verifica se a pasta de origem existe
 if not os.path.exists(source_directory):

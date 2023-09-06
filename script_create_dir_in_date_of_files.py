@@ -75,9 +75,8 @@ def organizar_arquivos(source_directory, destination_directory, allowed_extensio
             print(f"O item '{file_name}' não é um arquivo.")
 
 
-# Exemplo de uso
-source_directory = ""
-destination_directory = ""
-allowed_extensions = ['.jpg', '.BMP' '.JPG', '.jpeg', '.png', '.gif', '.json', '.mp4', '.avi', '.tar', '.MOV', '.heic', '.mov', '.ico', '.webp', '.wmv']
+source_directory = ""  # Insira o caminho do diretório de origem aqui
+destination_directory = ""  # Insira o caminho do diretório de destino aqui
+allowed_extensions = ['.jpg', '.bmp', '.html', '.m4v', '.JPG', '.jpeg', '.png', '.gif', '.json', '.mp4', '.avi', '.tar', '.MOV', '.heic', '.mov', '.ico', '.webp', '.wmv']
 
 organizar_arquivos(source_directory, destination_directory, allowed_extensions)
